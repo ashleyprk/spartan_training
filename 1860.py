@@ -9,8 +9,8 @@ for tc in range(1, T + 1):
     N, M, K = map(int, input().split())
     arriv = list(map(int, input().split()))
 
-    # 일찍 도착한 순으로 정렬
-    arriv.sort()
+    # 일찍 도착한 순으로 정렬 !!
+    arriv.sort() 
 
     possible = True
 
